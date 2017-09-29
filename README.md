@@ -7,3 +7,4 @@ def my_name():
     print'  LLLLL  I   H    H     OOOO     N      N      GGGG        Y       UUUUUU '
 my_name()
 i[image](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/blob/master/QQ%E6%88%AA%E5%9B%BE20170915130050EFDSFSDFDS.png?raw=true)
+- [书上第一章作业](https://www.zybuluo.com/xiaoyuerlhy/note/902940)
