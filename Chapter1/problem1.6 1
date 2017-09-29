@@ -24,4 +24,4 @@ plt.title("Population,a=10,b=3,N(0)=1") #set title
 plt.ylim(0,5) #set the range of y axis
 plt.legend()  #make it to show everything
 plt.show()  #activate
-![image]
+![image](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/blob/master/Chapter1/problem1.6%201.png)    #picture
