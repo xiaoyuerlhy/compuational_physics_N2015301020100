@@ -10,4 +10,4 @@ i[image](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/blob
 - [书上第一章作业](https://www.zybuluo.com/xiaoyuerlhy/note/902940)
 - [书上第二章作业](https://www.zybuluo.com/xiaoyuerlhy/note/914261)
 - [pygame(我太菜了，不会抛物线，只会直线。。。)](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/tree/master/pygame)
-- [2.4作业]（https://www.zybuluo.com/xiaoyuerlhy/note/921838）
+- [2.4作业](https://www.zybuluo.com/xiaoyuerlhy/note/921838)
