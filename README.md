@@ -12,3 +12,4 @@ i[image](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/blob
 - [pygame(我太菜了，不会抛物线，只会直线。。。)](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/tree/master/pygame)
 - [2.4作业](https://www.zybuluo.com/xiaoyuerlhy/note/921838)
 - [3.3作业](https://www.zybuluo.com/xiaoyuerlhy/note/930666)
+- [3.6作业](https://www.zybuluo.com/xiaoyuerlhy/note/938595)
