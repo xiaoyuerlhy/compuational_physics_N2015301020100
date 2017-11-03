@@ -1,53 +1,36 @@
-import matplotlib.pyplot as plt
 import numpy as np
-sigma=10
-b=8.0/3.0
-dt=0.0001
-class Lorenz:
-    def __init__(self,x,y,z,r):
-        self.x=[x]
-        self.y=[y]
-        self.z=[z]
-        self.r=r
-        self.t=[0.]
-        self.chosen_x=[]
-        self.chosen_y=[]
-        self.chosen_z=[]
-    def update(self):
-        current_x=self.x[-1]
-        current_y=self.y[-1]
-        current_z=self.z[-1]
-        #print current_x,current_y,current_z
-        a_x=sigma*(current_y-current_x)
-        a_y=-current_x*current_z+self.r*current_x-current_y
-        a_z=current_x*current_y-b*current_z
-        self.next_x=current_x+a_x*dt
-        self.next_y=current_y+a_y*dt
-        self.next_z=current_z+a_z*dt
-        self.next_t=self.t[-1]+dt
-    def fire(self):
-        while (self.t[-1]<=500):
-            self.update()
-            self.x.append(self.next_x)
-            self.y.append(self.next_y)
-            self.z.append(self.next_z)
-            self.t.append(self.next_t)
-            if (self.t[-1]>=30):
-                if (abs(self.next_y)<0.01):
-                    #print fuck
-                    self.chosen_x.append(self.next_x)
-                    self.chosen_z.append(self.next_z)
-                else:
-                    pass
-            else:
-                pass
-            #print self.z[-1]
-        #plt.plot(self.t,self.z,label='r='+str(self.r))
-        plt.plot(self.chosen_x,self.chosen_z,',',label="At x=0,Plot x versus z")
-        #print self.chosen_y
-A=Lorenz(1,0,0,25)
-A.fire()
-plt.legend(loc='upper center')
-plt.xlabel('x')
-plt.ylabel('z')
-plt.show()
+import matplotlib.pyplot as plt  #to import matplotlib's package
+
+x=[]       
+y=[]       
+z=[]
+x1=[]
+z1=[]           
+x.append(1) 
+y.append(0) 
+z.append(0)
+x1.append(1)
+z1.append(0)
+end_time=5000 
+det_t=0.001  
+
+for i in range(int(end_time/det_t)):
+    x.append(x[i]+10*(y[i]-x[i])*det_t)  
+    y.append(y[i]+(-x[i]*z[i]+30*x[i]-y[i])*det_t)
+    z.append(z[i]+(x[i]*y[i]-2.666667*z[i])*det_t) 
+    if abs(y[i])<0.01:
+        x1.append(x[i])
+        z1.append(z[i])
+    else:
+        pass
+    #print(x1[-1],z1[-1],y[-1])
+ 
+plt.figure(figsize=(15,15)) 
+plt.plot(x1,z1,',',label="z(x)",color="blue",linewidth=2)
+plt.xlabel("x")   
+plt.ylabel("z")  
+plt.xlim(-20,20)
+plt.ylim(0,50)
+plt.title("z-x,when r=30，y=0") 
+plt.legend()  
+plt.show()  
