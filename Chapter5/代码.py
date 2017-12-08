@@ -3,7 +3,7 @@ import matplotlib
 import numpy as np
 import matplotlib.cm 
 import matplotlib.mlab as mlab
-u7import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 # initialize the grid
 grid = []
@@ -64,10 +64,10 @@ Z = Laplace_calculate(grid)
 matplotlib.rcParams['contour.negative_linestyle'] = 'solid'
 plt.figure(figsize=[10,10])
 CS = plt.contour(X,Y,Z,10,colors='k')
-plt.clabel(CS, inline=1, fontsize=12)
-plt.title('Equipotential lines',fontsize=18)
-plt.xlabel('x(m)',fontsize=18)
-plt.ylabel('y(m)',fontsize=18)
+plt.clabel(CS, inline=2, fontsize=15)
+plt.title('Electric potential lines',fontsize=25)
+plt.xlabel('x(m)',fontsize=25)
+plt.ylabel('y(m)',fontsize=25)
 
 fig = plt.figure(figsize=[12,12])
 ax = fig.add_subplot(111, projection='3d')
