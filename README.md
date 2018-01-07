@@ -17,3 +17,4 @@ i[image](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/blob
 - [4.4作业](https://www.zybuluo.com/xiaoyuerlhy/note/971295)
 - [5.1作业](https://www.zybuluo.com/xiaoyuerlhy/note/979694)
 - [6.1作业](https://www.zybuluo.com/xiaoyuerlhy/note/987969)
+- [期末作业](https://github.com/xiaoyuerlhy/compuational_physics_N2015301020100/blob/master/%E9%9A%8F%E6%9C%BA%E6%B8%B8%E8%B5%B0%E8%BF%87%E7%A8%8B%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%A8%A1%E6%8B%9F%20%E6%9D%8E%E5%BC%98%E7%A6%B9.pdf)
